@@ -61,7 +61,7 @@ def preprocess(img_path):
     return img
 
 # Test image # put any traffic sign image here
-image_path = r"D:\Traffic Sign Recognition\DataSet\trafficSign\37.png"   # put any traffic sign image here
+image_path = r"D:\Traffic Sign Recognition\DataSet\trafficSign\42.png"   # put any traffic sign image here
 img = preprocess(image_path)
 
 prediction = model.predict(img)
